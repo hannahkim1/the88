@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Nanum Myeongjo";
+    overflow-x: hidden;
+}
+
+.mainHeading {
+    font-weight: 1000;
+    font-size: 60px;
+
+    color: black;
+}
+
+header {
+    padding-top: 7vw;
+    padding-bottom: 1vw;
+    text-align: center;
+}
+
+.navigation {
+    position: sticky;
+    background-color: white;
+
+    display: flex;
+    width: 60%;
+    margin: auto;
+
+    font-size: 24px;
+    text-align: center;
+
+    padding-bottom: 4vw;
+}
+.navigationIndi {
+    margin: auto;
+    
+    color: black;
+    font-size: 23px;
+
+    transition: text-shadow 0.9s;
+    transition: font-size 0.9s;
+}
+.navigationIndi:hover {
+    font-size: 25px;
+    text-shadow: 2px 4px 7px #D3C4BE;
+}
+
+

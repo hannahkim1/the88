@@ -1,0 +1,13 @@
+/* introduction to contact me */
+
+.information {
+    text-align: center;
+
+    font-size: 25px;
+    border: 3px solid #D3C4BE;
+    
+    padding: 20px;
+
+    width: 80%;
+    margin: auto;
+}

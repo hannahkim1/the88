@@ -1,0 +1,63 @@
+/* first job content 
+- when hovering pop out // gray out // include text */ 
+
+.section1 {
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    
+    padding-bottom: 60px;
+
+    width: 60%;
+}
+
+.firstjob {
+    width: 50%;
+    margin: auto; 
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    opacity: 0.7;
+    transition: opacity 0.5s; 
+}
+.firstjob:hover {
+    opacity: 1.0;
+}
+.firstJobImage {
+    transition: box-shadow 0.5s;
+}
+.firstJobImage:hover {
+    box-shadow: 2px 2px 7px black;
+}
+
+.secondJob {
+    width: 50%;
+    margin: auto;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    opacity: 0.7;
+    transition: opacity 0.5s; 
+}
+.secondJob:hover {
+    opacity: 1.0;
+}
+.secondJobImage {
+    transition: box-shadow 0.5s;
+}
+.secondJobImage:hover {
+    box-shadow: 2px 2px 7px black;
+}
+
+/* just an example replace later */
+.section2 {
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    
+    padding-bottom: 60px;
+
+    width: 60%;
+}

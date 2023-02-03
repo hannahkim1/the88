@@ -1,0 +1,41 @@
+.mainBody {
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+/* left side */
+.headshot {
+    width: 33%;
+    height: 60vw;
+}
+
+/* checkered pattern CAREFUL SPECIFIC!!!! */
+.checkered {
+    width: 50%;
+    height: 60vw;
+
+    margin-left: 5vw;
+}
+.topCheckered {
+    display: flex;
+}
+.bottomCheckered {
+    display: flex;
+}
+
+.imageCheckered {
+    width: 50%;
+}
+.textCheckered {
+    width: 50%;
+    text-align: center;
+}
+.text {
+    padding-left: 1.7vw;
+    padding-right: 1.7vw;
+    padding-top: 1vw;
+}
